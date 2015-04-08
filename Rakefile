@@ -11,7 +11,7 @@ builder = XcodeBuilder::XcodeBuilder.new do |config|
 		config.tag_vcs = true
 		config.package_destination_path = "./pkg/"
 		config.pod_repo = "OpenTable"
-		config.podspec_file = "PubNub-OpenTable.podspec"
+		config.podspec_file = "PubNub-OT.podspec"
 
 		# tag and release with git
 		config.release_using(:git) do |git|
