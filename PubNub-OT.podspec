@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
     'PubNub, Inc.' => 'support@pubnub.com'
   }
   s.source = {
-    :git => 'https://github.com/opentable/objective-c.git',
-    :tag => 'v3.7.10.3'
+    :git => 'git@github.com:opentable/objective-c.git',
+    :tag => '#{version}-OpenTable'
   }
 
   # A list of file patterns which select the source files that should be
