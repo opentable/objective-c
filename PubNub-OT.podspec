@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   }
   s.source = {
     :git => 'git@github.com:opentable/objective-c.git',
-    :tag => '#{version}-OpenTable'
+    :tag => "v#{version}-OpenTable"
   }
 
   # A list of file patterns which select the source files that should be
