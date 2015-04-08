@@ -2,6 +2,7 @@ version = '3.7.10.3'
 
 Pod::Spec.new do |s|
   s.name         = 'PubNub-OT'
+  s.header_dir = 'PubNub'
   s.version      = version
   s.summary      = 'The PubNub Real-Time Network. Build real-time apps quickly and scale them globally.'
   s.authors = {
@@ -34,17 +35,17 @@ Pod::Spec.new do |s|
    s.resource_bundle = { 'PubNub' => 'PubNub/PubNub/PubNub/Resources/*' }
 
   s.ios.deployment_target = '5.1'
-  s.osx.deployment_target = '10.7'
+  # s.osx.deployment_target = '10.7'
 
   s.ios.prefix_header_file = 'iOS/iPadDemoApp/pubnub/pubnub-Prefix.pch'
 
   s.requires_arc = true
   s.frameworks =  'CFNetwork', 'SystemConfiguration'
   s.library   = 'z'
-  s.osx.frameworks = 'CoreWLAN'
-  s.osx.prefix_header_contents = <<-EOS
-#import "PNImports.h"
-EOS
+#   s.osx.frameworks = 'CoreWLAN'
+#   s.osx.prefix_header_contents = <<-EOS
+# #import "PNImports.h"
+# EOS
 
   s.homepage = 'http://www.pubnub.com/'
   s.license = %{
