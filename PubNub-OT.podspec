@@ -38,6 +38,14 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = '10.7'
 
   s.ios.prefix_header_file = 'iOS/iPadDemoApp/pubnub/pubnub-Prefix.pch'
+  s.ios.public_header_files = ['**/PNAccessRightsInformation.h', '**/PNAccessRightsCollection.h',
+    '**/PNAccessRightOptions.h', '**/PNObservationCenter.h', '**/PNChannelPresence.h', '**/PNConfiguration.h',
+    '**/PNNotifications.h', '**/PNDelegate.h', '**/PNWhereNow.h', '**/PNHereNow.h', '**/PNNetworkHelper.h', 
+    '**/NSString+PNAddition.h', '**/PNCryptoHelper.h', '**/PNErrorCodes.h', '**/PNStructures.h', '**/PNChannelGroupNamespace.h', 
+    '**/PNChannelGroupChange.h', '**/PNChannelProtocol.h', '**/PNPresenceEvent.h', '**/PNChannelGroup.h', '**/PNMessage.h', '**/PNChannel.h', 
+    '**/PNClient.h', '**/PNLogger.h', '**/PNMacro.h', '**/PNError.h', '**/PNDate.h', '**/PubNub+ChannelRegistry.h', 
+    '**/PubNub+PresenceEvents.h', '**/PubNub+Subscription.h', '**/PubNub+Messaging.h', '**/PubNub+Presence.h',
+    '**/PubNub+History.h', '**/PubNub+Cipher.h', '**/PubNub+State.h', '**/PubNub+Time.h', '**/PubNub+APNS.h', '**/PubNub+PAM.h', '**/PubNub.h', '**/PNImports.h']
 
   s.requires_arc = true
   s.frameworks =  'CFNetwork', 'SystemConfiguration'
