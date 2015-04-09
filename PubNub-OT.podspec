@@ -1,4 +1,4 @@
-version = '3.7.10.4'
+version = '3.7.10.5'
 
 Pod::Spec.new do |s|
   s.name         = 'PubNub-OT'
