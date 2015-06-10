@@ -23,8 +23,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		000333AE1B27BEF1008C973D /* PubNub-Framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 000333AD1B27BEF1008C973D /* PubNub-Framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		000333B51B27BEF1008C973D /* PubNub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000333AB1B27BEF1008C973D /* PubNub.framework */; };
+		000333AE1B27BEF1008C973D /* PubNubFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 000333AD1B27BEF1008C973D /* PubNubFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		000333B51B27BEF1008C973D /* PubNubFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000333AB1B27BEF1008C973D /* PubNubFramework.framework */; };
 		000333BA1B27BEF1008C973D /* PubNub_FrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000333B91B27BEF1008C973D /* PubNub_FrameworkTests.m */; };
 		000333C21B27BF2B008C973D /* PubNub+ChannelRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 799774AC1A2FEFF90097A61C /* PubNub+ChannelRegistry.m */; };
 		000333C31B27BF2B008C973D /* PubNub+PresenceEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = 799774B81A2FEFF90097A61C /* PubNub+PresenceEvents.m */; };
@@ -618,8 +618,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		000333AB1B27BEF1008C973D /* PubNub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PubNub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		000333AD1B27BEF1008C973D /* PubNub-Framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PubNub-Framework.h"; sourceTree = "<group>"; };
+		000333AB1B27BEF1008C973D /* PubNubFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PubNubFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		000333AD1B27BEF1008C973D /* PubNubFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PubNubFramework.h; sourceTree = "<group>"; };
 		000333AF1B27BEF1008C973D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		000333B41B27BEF1008C973D /* PubNub-FrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PubNub-FrameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		000333B91B27BEF1008C973D /* PubNub_FrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PubNub_FrameworkTests.m; sourceTree = "<group>"; };
@@ -917,7 +917,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				000333B51B27BEF1008C973D /* PubNub.framework in Frameworks */,
+				000333B51B27BEF1008C973D /* PubNubFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -941,7 +941,7 @@
 		000333AC1B27BEF1008C973D /* PubNub-Framework */ = {
 			isa = PBXGroup;
 			children = (
-				000333AD1B27BEF1008C973D /* PubNub-Framework.h */,
+				000333AD1B27BEF1008C973D /* PubNubFramework.h */,
 				000333AF1B27BEF1008C973D /* Info.plist */,
 			);
 			path = "PubNub-Framework";
@@ -990,7 +990,7 @@
 			children = (
 				798EFB6F1A00F14A00E8AFB7 /* libPubNub.a */,
 				798E023D1A0105A300E8AFB7 /* PubNub.bundle */,
-				000333AB1B27BEF1008C973D /* PubNub.framework */,
+				000333AB1B27BEF1008C973D /* PubNubFramework.framework */,
 				000333B41B27BEF1008C973D /* PubNub-FrameworkTests.xctest */,
 			);
 			name = Products;
@@ -1436,7 +1436,7 @@
 				000334631B27BF41008C973D /* PNAccessRightsCollection.h in Headers */,
 				000334671B27BF42008C973D /* PNAccessRightOptions.h in Headers */,
 				000334951B27BF46008C973D /* NSString+PNAddition.h in Headers */,
-				000333AE1B27BEF1008C973D /* PubNub-Framework.h in Headers */,
+				000333AE1B27BEF1008C973D /* PubNubFramework.h in Headers */,
 				0003342A1B27BF3F008C973D /* PNObservationCenter+Protected.h in Headers */,
 				0003342C1B27BF3F008C973D /* PubNub+SubscriptionProtected.h in Headers */,
 				000334371B27BF3F008C973D /* PubNub+Protected.h in Headers */,
@@ -1748,9 +1748,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		000333AA1B27BEF1008C973D /* PubNub-Framework */ = {
+		000333AA1B27BEF1008C973D /* PubNubFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 000333C01B27BEF1008C973D /* Build configuration list for PBXNativeTarget "PubNub-Framework" */;
+			buildConfigurationList = 000333C01B27BEF1008C973D /* Build configuration list for PBXNativeTarget "PubNubFramework" */;
 			buildPhases = (
 				000333A61B27BEF1008C973D /* Sources */,
 				000333A71B27BEF1008C973D /* Frameworks */,
@@ -1761,9 +1761,9 @@
 			);
 			dependencies = (
 			);
-			name = "PubNub-Framework";
+			name = PubNubFramework;
 			productName = "PubNub-Framework";
-			productReference = 000333AB1B27BEF1008C973D /* PubNub.framework */;
+			productReference = 000333AB1B27BEF1008C973D /* PubNubFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		000333B31B27BEF1008C973D /* PubNub-FrameworkTests */ = {
@@ -1862,7 +1862,7 @@
 				798EFB6E1A00F14A00E8AFB7 /* PubNub */,
 				798E02321A0103B200E8AFB7 /* Universal-iOS-Framework */,
 				798E023C1A0105A300E8AFB7 /* PubNub.bundle */,
-				000333AA1B27BEF1008C973D /* PubNub-Framework */,
+				000333AA1B27BEF1008C973D /* PubNubFramework */,
 				000333B31B27BEF1008C973D /* PubNub-FrameworkTests */,
 			);
 		};
@@ -2164,7 +2164,7 @@
 /* Begin PBXTargetDependency section */
 		000333B71B27BEF1008C973D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 000333AA1B27BEF1008C973D /* PubNub-Framework */;
+			target = 000333AA1B27BEF1008C973D /* PubNubFramework */;
 			targetProxy = 000333B61B27BEF1008C973D /* PBXContainerItemProxy */;
 		};
 		798E02371A0103B700E8AFB7 /* PBXTargetDependency */ = {
@@ -2202,7 +2202,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.PubNub-Framework";
-				PRODUCT_NAME = PubNub;
+				PRODUCT_NAME = "${TARGET_NAME}";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2227,7 +2227,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pubnub.PubNub-Framework";
-				PRODUCT_NAME = PubNub;
+				PRODUCT_NAME = "${TARGET_NAME}";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(CONTENTS_FOLDER_PATH)/Headers";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -2415,7 +2415,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		000333C01B27BEF1008C973D /* Build configuration list for PBXNativeTarget "PubNub-Framework" */ = {
+		000333C01B27BEF1008C973D /* Build configuration list for PBXNativeTarget "PubNubFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				000333BC1B27BEF1008C973D /* Debug */,
