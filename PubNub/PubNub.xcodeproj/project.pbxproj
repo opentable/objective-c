@@ -185,7 +185,7 @@
 		0003345E1B27BF41008C973D /* PNResponseParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 799775011A2FEFF90097A61C /* PNResponseParser.h */; };
 		0003345F1B27BF41008C973D /* PNChannelGroupNamespace.h in Headers */ = {isa = PBXBuildFile; fileRef = 7997751C1A2FEFF90097A61C /* PNChannelGroupNamespace.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		000334601B27BF41008C973D /* PNAccessRightsInformation+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 7997750E1A2FEFF90097A61C /* PNAccessRightsInformation+Protected.h */; };
-		000334611B27BF41008C973D /* PNAccessRightsInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7997750F1A2FEFF90097A61C /* PNAccessRightsInformation.h */; };
+		000334611B27BF41008C973D /* PNAccessRightsInformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7997750F1A2FEFF90097A61C /* PNAccessRightsInformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		000334621B27BF41008C973D /* PNAccessRightsCollection+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 7997750B1A2FEFF90097A61C /* PNAccessRightsCollection+Protected.h */; };
 		000334631B27BF41008C973D /* PNAccessRightsCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7997750C1A2FEFF90097A61C /* PNAccessRightsCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		000334641B27BF41008C973D /* PNChannelGroupChange+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 799775191A2FEFF90097A61C /* PNChannelGroupChange+Protected.h */; };
@@ -247,7 +247,7 @@
 		0003349C1B27BF47008C973D /* PNPrivateImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 799775631A2FEFF90097A61C /* PNPrivateImports.h */; };
 		0003349D1B27BF48008C973D /* PNNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 799775621A2FEFF90097A61C /* PNNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0003349E1B27BF48008C973D /* PNErrorCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = 799775591A2FEFF90097A61C /* PNErrorCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0003349F1B27BF48008C973D /* PNStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = 799775661A2FEFF90097A61C /* PNStructures.h */; };
+		0003349F1B27BF48008C973D /* PNStructures.h in Headers */ = {isa = PBXBuildFile; fileRef = 799775661A2FEFF90097A61C /* PNStructures.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		000334A01B27BF48008C973D /* PNConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 799775571A2FEFF90097A61C /* PNConstants.h */; };
 		000334A11B27BF48008C973D /* PNImports.h in Headers */ = {isa = PBXBuildFile; fileRef = 7997755C1A2FEFF90097A61C /* PNImports.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		000334A21B27BF48008C973D /* PNLogger+Protected.h in Headers */ = {isa = PBXBuildFile; fileRef = 7997755D1A2FEFF90097A61C /* PNLogger+Protected.h */; };
@@ -1396,6 +1396,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				000334611B27BF41008C973D /* PNAccessRightsInformation.h in Headers */,
+				0003349F1B27BF48008C973D /* PNStructures.h in Headers */,
 				000334381B27BF3F008C973D /* PubNub.h in Headers */,
 				000334361B27BF3F008C973D /* PubNub+Time.h in Headers */,
 				0003342D1B27BF3F008C973D /* PubNub+Subscription.h in Headers */,
@@ -1473,7 +1475,6 @@
 				0003345D1B27BF41008C973D /* PNResponseDeserialize.h in Headers */,
 				0003345E1B27BF41008C973D /* PNResponseParser.h in Headers */,
 				000334601B27BF41008C973D /* PNAccessRightsInformation+Protected.h in Headers */,
-				000334611B27BF41008C973D /* PNAccessRightsInformation.h in Headers */,
 				000334621B27BF41008C973D /* PNAccessRightsCollection+Protected.h in Headers */,
 				000334641B27BF41008C973D /* PNChannelGroupChange+Protected.h in Headers */,
 				000334661B27BF41008C973D /* PNAccessRightOptions+Protected.h in Headers */,
@@ -1519,7 +1520,6 @@
 				0003349A1B27BF47008C973D /* PNRequestsImport.h in Headers */,
 				0003349B1B27BF47008C973D /* PNLoggerSymbols.h in Headers */,
 				0003349C1B27BF47008C973D /* PNPrivateImports.h in Headers */,
-				0003349F1B27BF48008C973D /* PNStructures.h in Headers */,
 				000334A01B27BF48008C973D /* PNConstants.h in Headers */,
 				000334A21B27BF48008C973D /* PNLogger+Protected.h in Headers */,
 				000334A41B27BF49008C973D /* PNHelper.h in Headers */,
